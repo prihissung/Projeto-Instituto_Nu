@@ -1,2 +1,2 @@
-# Projeto-Instituto_Nu
-HTML, CSS e Bootstrap: Atividade Prática
+# Projeto_Naomi
+HTML, CSS e Bootstrap
