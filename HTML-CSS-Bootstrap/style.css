@@ -100,3 +100,45 @@ body {
     border-radius: 20px;
 }
 
+  /* Estilos para alinhar as imagens à direita */
+  .align-right img {
+    float: right;
+    margin-left: 15px;
+  }
+
+  /* Limpar o float para evitar problemas de layout */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #presentes1{
+  
+    padding: 20px;
+  
+    margin: 8 auto;
+    width: 80%; /* Defina uma largura desejada para o container */
+    float: right;
+    margin-left: 90px;
+
+    
+  }
+  #presentes2{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+ 
+    border-radius: 20px;
+    
+  }
+
+  #contato{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+ 
+    border-radius: 20px;
+
+  }
+  

@@ -9,259 +9,231 @@
           integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
-    <title>Viagem dos Sonhos</title>
+       <!-- Adicione o link para o arquivo JavaScript do Bootstrap e o jQuery (necessário para o Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+    <title>Naomi #15Anos</title>
  </head>
 
  <body>
-   <header class="container-fluid p-2  text-center">
-      <nav class="navbar navbar-expand-lg ">
-          <div class="container-fluid">
-            <a class="navbar-brand" href="#viagemdossonhos">Viagem dos Sonhos</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="#pacotes" onclick="scrollToSection ('pacotes')">Pacotes</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#quemsomos" onclick="scrollToSection ('quemsomos')">Quem Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contato" onclick="scrollToSection ('contato')">Contato</a>
-                </li>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="carrinho.html"><i class="bi bi-cart3"></i></a> 
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-        <div id="carouselExampleCaptions" class="carousel slide">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="carousel/museua.png" class="d-block w-100" alt="Museu do Ipiranga">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>São Paulo</h5>
-                <h2>Museu do Ipiranga</h2>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="carousel/carneirosa.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Igrejinha</h5>
-                <h2>Carneiros - PE</h2>
-              </div>
-            </div>
-
-            <div class="carousel-item">
-              <img src="carousel/olindaa.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-none d-md-block">
-                <h5>Olinda</h5>
-              </div>
-            </div>
-            
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+             <div class="carousel-item active">
+               <img src="img/naomi3.jpg" class="d-block w-100" alt="Museu do Ipiranga">
+                <div class="carousel-caption">
+                    <h2>08.09.2023</h2>
+                    <h1>Naomi</h1>
+                    <h2>Meus 15 anos</h2>
+                    <h3>Convido você para comemorar comigo essa noite mágica,
+                    </br>inesquecivel e única</h3>
+                 </div>
+             </div>
+         </div>
       </div>
    </header>
 
-    <!-- Pagina Inical -->
-    <section id="home">
-      <section class="container-fluid text-center p-3">
-        <div class="clearfix">
-         <h2>Facilitadores de Sonhos</h2>
-         <img src="img/aeroporto.jpg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="aeroporto">
-             <p>A Viagem dos Sonhos, é uma empresa especializada em ajudar a você realizar a viagem dos sonhos!</p>
-             <p>Com uma equipe inovadora e atenta as mais modernas hospedagem, buscando sempre o melhor custo benefício para nossos clientes.</p>
-             <p>Seus sonhos de viagem se tornarão realidade. Nossos pacotes de viagem são sonhos de aventura, diversão e relaxamento.</p> 
-              <p>Pacotes que incluem várias características que fazem de sua viagem uma experiência melhor.</p>
-              <p>Incluímos alguns dos melhores hotéis em suas categorias, você também encontrará excursões, carros e muitas outras ofertas 
-                que o ajudarão a tomar uma decisão inteligente ao reservar seu próximo pacotes de viagens em feriados como Réveillon, 
-                Carnaval e Páscoa.</p>
-        </div>
-      </section>
-    </section>
-
-   <!--Pacotes-->
-   <section id="pacotes">
-     <section class="container-fluid text-center p-3">
-     <h2>Pacotes</h2>
-     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-         <div class="row row-cols-1 row-cols-md-3 g-4">
-             <div class="col">
-               <div class="card h-100 ">
-                 <img src="nossos-pacotes/campos.jpg" class="card-img-top" alt="...">
-                 <div class="card-body">
-                   <h5 class="card-title">Campos de Jordão</h5>
-                   <h1 class="card-subtitle text-muted">R$ 1.500,00</h1>
-                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                 </div>
-                 <a href="a" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
-                 <div class="card-footer">
-                   <small class="text-muted">Em até 24x</small>
-                 </div>
-               </div>
-             </div>
-             <div class="col">
-               <div class="card h-100 ">
-                 <img src="nossos-pacotes/florianopolis.jpg" class="card-img-top" alt="...">
-                 <div class="card-body">
-                   <h5 class="card-title">Florianópolis</h5>
-                   <h1 class="card-subtitle text-muted">R$ 2.500,00</h1>
-                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                 </div>
-                 <a href="a" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
-                 <div class="card-footer">
-                   <small class="text-muted">Em até 24x</small>
-                 </div>
-               </div>
-             </div>
-             <div class="col">
-               <div class="card h-100 ">
-                 <img src="nossos-pacotes/recife.jpg" class="card-img-top" alt="...">
-                 <div class="card-body">
-                   <h5 class="card-title">Recife</h5>
-                   <h1 class="card-subtitle text-muted">R$ 3.500,00</h1>
-                   <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                 </div>
-                 <a href="a" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
-                 <div class="card-footer">
-                     <small class="text-muted">Em até 24x</small>
-                 </div>
-               </div>
-             </div>
-           </div>
-      </section>  
-    </section>
-
-   <!-- Quem somos -->
-   <section id="quemsomos">
-    <section class="container-fluid  text-center p-3">
-     <div class="clearfix">
-    <h2>Quem Somos</h2>
-    </div> 
-    <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-      <img 
-        class="bd-placeholder-img rounded-circle" width="300" height="300"
-        src="img/helo.jpg" alt="Foto do membro do time"
-      />
-      <div class="p-4">
-        <h5>Heloiza</h5>
-        <p>Assistente de Negócios</p>
-      </div>  
-      </div>  
-      <div class="col-lg-4">
-      <img 
-        class="bd-placeholder-img rounded-circle" width="300" height="300"
-        src="img/naomi.jpg" alt="Foto do membro do time"
-      />
-      <div class="p-4">
-        <h5>Naomi</h5>
-        <p>Especialista em Atendimento</p>
-      </div>
-      </div>
-      <div class="col-lg-4">
-      <img 
-        class="bd-placeholder-img rounded-circle" width="300" height="300"
-        src="img/eu.jpg" alt="Foto do membro do time"
-      />
-      <div class="p-4">
-        <h5>Priscilla</h5>
-        <p>Gerente</p>
-      </div>
-      </div>
-    </div>
-    </div> 
+   <!--cronometro-->
+   <section id="cronometro">
+   <div class="container-fluid text-center p-3">
+    <h1>Faltam</h1>
+    <div class="display-3" id="timer">Calculando...</div>
+  </div>
+   <script>
+    function startCountdown(endDate, display) {
+      setInterval(function () {
+        const now = new Date().getTime();
+        const difference = endDate - now;
+  
+        if (difference <= 0) {
+          display.textContent = "Tempo expirado!";
+        } else {
+          const days = Math.floor(difference / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((difference % (1000 * 60)) / 1000);
+  
+          const formattedTime = `${days}dias ${formatTimeComponent(hours)}h | ${formatTimeComponent(minutes)}m | ${formatTimeComponent(seconds)}s`;
+          display.textContent = formattedTime;
+        }
+      }, 1000);
+    }
+  
+    function formatTimeComponent(time) {
+      return time < 10 ? `0${time}` : time;
+    }
+  
+    window.onload = function () {
+      const endDate = new Date("2023-09-08T21:00:00").getTime();
+      const display = document.querySelector('#timer');
+      startCountdown(endDate, display);
+    };
+  </script>
   </section>
-   
-
-   <section id="contato">
-    <section class="container-fluid p-3">
-        <h2 class="text-center">Faça já seu orçamento</h2>
+  
+  <!--Confirmação de Presença-->
+  <section id="contato">
+    <section class="container p-2">
+        <h2 class="text-center">Confirme sua presença</h2>
         <form method="GET" action="">
-
             <fieldset>
-                <legend>Dados Pessoais</legend>
+                <legend>Você irá a festa?</legend>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagens" id="compraPassagens">
+                    <label class="form-check-label" for="compraPassagens">
+                        SIM! Eu confirmo</label>
+                
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" name="hospedagem" value="Hospedagem" id="reservaHospedagem">
+                    <label class="form-check-label" for="reservaHospedagem">
+                        Não posso :(
+                    </label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend></legend>
                 <div class="mb-3">
                     <label class="form-label" for="nome">
                         Nome
                     </label>
                     <input type="text" class="form-control" name="nome" id="nome">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="email">
-                        e-mail: </label>
-                    </label>
-                    <input type="email" class="form-control" name="email" placeholder="email@xyz.com" required name="email">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="dataIda">
-                        Data de Ida
-                    </label>
-                    <input type="date" class="form-control" name="dataIda" id="dataIda">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="dataVolta">
-                        Data de Volta
-                    </label>
-                    <input type="date" class="form-control" name="dataVolta" id="dataVolta">
-                </div>
+                </div>   
             </fieldset>
-
-            <fieldset>
-                <legend>Quais serviços deseja contratar</legend>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="passagens" value="Passagens" id="compraPassagens">
-                    <label class="form-check-label" for="compraPassagens">
-                        Compar passagens</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="hospedagem" value="Hospedagem" id="reservaHospedagem">
-                    <label class="form-check-label" for="reservaHospedagem">
-                        Reserva de hospedagem
-                    </label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" name="aluguelVeiculos" value="Veiculo" id="aluguelVeiculos">
-                    <label class="form-check-label" for="aluguelVeiculos">
-                        Aluguel de veículo
-                    </label>
-                </div>
-            </fieldset>
-
             <button class="btn btn-secundary">Enviar</button>
         </form>
       </section>
     </section>
+
+<!-- Presentes -->
+<section id="presentes">
+    <section class="container-fluid text-center p-3">
+      <div class="clearfix">
+        <h2>Sugestão de Presentes</h2>
+      </div>
+  
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="img rounded-circle" width="200" height="200" src="img/calça.jpg" alt="Foto do membro do time">
+              <h5 class="card-title"></h5>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+              <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Calça</a>
+            </div>
+          </div>
+  
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="img rounded-circle" width="200" height="200" src="img/street.jpg" alt="Foto do membro do time">
+              <h5 class="card-title"></h5>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+              <a href="https://br.shein.com/DAZY-Letter-Graphic-Drop-Shoulder-Tee-p-12393170-cat-1738.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Camiseta</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="card-body">
+              <img class="img rounded-circle" width="200" height="200" src="img/calça.jpg" alt="Foto do membro do time">
+              <h5 class="card-title"></h5>
+              <h6 class="card-subtitle mb-2 text-muted"></h6>
+              <p class="card-text"></p>
+              <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Calça</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </section>
+  
+	   <section id="presemtes1">
+		<section class="container-fluid  text-center p-3">
+		 <div class="clearfix">
+		<h2></h2>
+		</div> 
+		<div id="presentes1" class="container">
+		<div class="row">
+		  <div class="col-lg-3">
+		  <img 
+			class="bd-placeholder-img rounded-circle" width="200" height="200"
+			src="img/babaloo.jpg" alt="Foto do membro do time"/>
+      <h6 class="card-subtitle mb-2 text-muted"></h6>
+		  <a href="https://www.boticario.com.br/combo-cuide-se-bem-bubbaloo-morango-sabonete-liquido-150ml-locao-hidratante-desodorante-corporal-400ml/"  class="btn btn-primary">Creme de Corpo</a>
+		  <div class="p-4">
+			<h5></h5>
+			<p></p>
+		  </div>  
+		  </div>  
+		  <div class="col-lg-3">
+		  <img 
+			class="bd-placeholder-img rounded-circle" width="200" height="200"
+			src="img/calça2.jpg" alt="Foto do membro do time"/>
+      <h6 class="card-subtitle mb-2 text-muted"></h6>
+		  <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1"  class="btn btn-primary">Calça</a>
+		  <div class="p-3">
+			<h5></h5>
+			<p></p>
+		  </div>
+		  </div>
+		  <div class="col-lg-3">
+		  <img 
+			class="bd-placeholder-img rounded-circle" width="200" height="200"
+			src="img/street.jpg" alt="Foto do membro do time"/>
+      <h6 class="card-subtitle mb-2 text-muted"></h6>
+		  <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Camiseta</a>
+		  <div class="p-3">
+			<h5></h5>
+			<p></p>
+		  </div>
+		  </div>
+		</div>
+		</div> 
+	  </section>
+
+      <section id="presentes">
+        <section class="container-fluid text-center p-3">
+          <div class="clearfix">
+            <h2>Sugestão de Presentes</h2>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card-body">
+                  <img class="img rounded-circle" width="200" height="200" src="img/calça.jpg" alt="Foto do membro do time">
+                  <h5 class="card-title">O Boticario</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text">Creme de corpo, perfumes...</p>
+                  <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Calça</a>
+                </div>
+              </div>
+      
+              <div class="col-lg-4">
+                <div class="card-body">
+                  <img class="img rounded-circle" width="200" height="200" src="img/calça.jpg" alt="Foto do membro do time">
+                  <h5 class="card-title">O Boticario</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text">Creme de corpo, perfumes...</p>
+                  <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Calça</a>
+                </div>
+              </div>
+    
+              <div class="col-lg-4">
+                <div class="card-body">
+                  <img class="img rounded-circle" width="200" height="200" src="img/calça.jpg" alt="Foto do membro do time">
+                  <h5 class="card-title">O Boticario</h5>
+                  <h6 class="card-subtitle mb-2 text-muted"></h6>
+                  <p class="card-text">Creme de corpo, perfumes...</p>
+                  <a href="https://br.shein.com/Solid-Flap-Pocket-Cargo-Pants-p-13509662-cat-1740.html?src_identifier=st%3D2%60sc%3Dstreet%60sr%3D0%60ps%3D1&src_module=search&src_tab_page_id=page_home1690081813470&mallCode=1" class="btn btn-primary">Calça</a>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+      </section>
+  
 
     <footer class=" container-fluid text-center p-2">
       <p>Desenvolvido por Priscilla Hissung</p>
