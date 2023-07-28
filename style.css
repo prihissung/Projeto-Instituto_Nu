@@ -1,0 +1,144 @@
+
+/* Essas regras aplicam um estilo padrÃ£o a todos os elementos da pÃ¡gina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Essa regra define a largura de um elemento com a classe 'logo' como 180 pixels. */
+.logo {
+    width: 180px;
+}
+
+/* Essa regra define a barra de navegaÃ§Ã£o com a classe 'navbar' 
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-item a {
+    margin-right: 20px;
+}*/
+
+h1{
+    font-size: 63px;
+    color: #ffffff;
+}
+
+h2{
+    font-size: 54px;
+    color:#303030;
+    font-weight: 600;
+}
+
+.carousel-caption h5{
+    font-size: 80px;
+    color: #b0eaf1;
+    text-shadow: 2px 2px black;
+}
+.carousel-caption h2{
+    font-size: 50px;
+    color: #b0eaf1;
+    text-shadow: 2px 2px black;
+}
+
+body {
+    background: linear-gradient(72deg, #8ee1e549 10%, #f0706757 90%);
+}
+
+.card-body {
+    background: linear-gradient(72deg, #8ee1e549 10%, #f0706757 90%);
+}
+
+.home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.home-text {
+    width: 50%;
+    padding: 2rem;
+}
+
+.home-text .text-h3 {
+    font-size: 3rem;
+    color:rgb(243, 95, 124);
+    margin-bottom: 0.3rem;
+    line-height: 4rem;
+}
+.home-text .text-h2 {
+    font-size: 1.5rem;
+    color: #22aadf;
+    margin-bottom: 1rem;
+    margin-top: 35px;
+}
+
+
+.home-text p {
+    margin-bottom: 3rem;
+}
+
+
+
+.home-btn:hover {
+    background: #fc4c35;
+    text-decoration: none;
+}
+.home-img img {
+    margin-right: 30px;
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+  /* Estilos para alinhar as imagens à direita */
+  .align-right img {
+    float: right;
+    margin-left: 15px;
+  }
+
+  /* Limpar o float para evitar problemas de layout */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #presentes1{
+  
+    padding: 20px;
+  
+    margin: 8 auto;
+    width: 80%; /* Defina uma largura desejada para o container */
+    float: right;
+    margin-left: 90px;
+
+    
+  }
+  #presentes2{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+ 
+    border-radius: 20px;
+    
+  }
+
+  #contato{
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+ 
+    border-radius: 20px;
+
+  }
+  
